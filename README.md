@@ -1,3 +1,7 @@
+## 🎥 Demo Video
+Watch the 7-8 minute demo here: [YouTube Unlisted Link](https://youtu.be/L9V5cfzk_G0)
+
+
 # Mock E‑commerce (Frontend + Backend)
 
 This is a full-stack shopping cart application built for the Vibe Commerce internship assignment.
