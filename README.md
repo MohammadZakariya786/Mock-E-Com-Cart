@@ -77,17 +77,17 @@ This repository contains:
 ## 📸 Screenshots
 
 ### 🛍️ Product Grid
-[![Product Grid](../screenshots/product-grid.png)](../screenshots/product-grid.png)
+[![Product Grid](/screenshots/product-grid.png)](/screenshots/product-grid.png)
 
 ### 🧺 Cart Sidebar
-[![Cart Sidebar](../screenshots/cart.png)](../screenshots/cart.png)
+[![Cart Sidebar](/screenshots/cart.png)](/screenshots/cart.png)
 
 ### 💳 Checkout Modal
-[![Checkout Modal](../screenshots/checkout-modal.png)](../screenshots/checkout-modal.png)
+[![Checkout Modal](/screenshots/checkout-modal.png)](/screenshots/checkout-modal.png)
 
 ### 🧾 Receipts with Details
-[![Receipts with Details](../screenshots/receipt1.png)](../screenshots/receipt1.png)
-[![Receipts with Details](../screenshots/receipt2.png)](../screenshots/receipt2.png)
+[![Receipts with Details](/screenshots/receipt1.png)](/screenshots/receipt1.png)
+[![Receipts with Details](/screenshots/receipt2.png)](/screenshots/receipt2.png)
 
 
 ## Frontend Features
@@ -106,12 +106,12 @@ This repository contains:
 
 ## Important API endpoints
 
-- ✅ GET /api/products — Retrieve all mock products - see [../backend/routes/products.js](../backend/routes/products.js)  
-- ✅ GET /api/cart — Fetch user’s current cart and total - see [../backend/routes/cart.js](../backend/routes/cart.js)  
-- ✅ POST /api/cart — add product to cart (body: `{ productId, qty }`) — see [../frontend/src/api.js](../frontend/src/api.js)  
-- ✅ PATCH /api/cart/:id — update quantity of cart item — see [../backend/routes/cart.js](../backend/routes/cart.js)  
-- ✅ DELETE /api/cart/:id — Remove an item from cart — see [../backend/routes/cart.js](../backend/routes/cart.js)  
-- ✅ POST /api/checkout — Mock checkout + generate receipt (body: `{ name, email }`) — see [../backend/routes/checkout.js](../backend/routes/checkout.js)
+- ✅ GET /api/products — Retrieve all mock products - see [/backend/routes/products.js](/backend/routes/products.js)  
+- ✅ GET /api/cart — Fetch user’s current cart and total - see [/backend/routes/cart.js](/backend/routes/cart.js)  
+- ✅ POST /api/cart — add product to cart (body: `{ productId, qty }`) — see [/frontend/src/api.js](/frontend/src/api.js)  
+- ✅ PATCH /api/cart/:id — update quantity of cart item — see [/backend/routes/cart.js](/backend/routes/cart.js)  
+- ✅ DELETE /api/cart/:id — Remove an item from cart — see [/backend/routes/cart.js](/backend/routes/cart.js)  
+- ✅ POST /api/checkout — Mock checkout + generate receipt (body: `{ name, email }`) — see [/backend/routes/checkout.js](/backend/routes/checkout.js)
 
 ## Database Collections:
 
@@ -136,13 +136,13 @@ This repository contains:
 
 ## Troubleshooting
 
-- Mongo connection error: verify `MONGO_URI` in [../backend/.env](../backend/.env).
-- Frontend cannot reach backend: verify `VITE_API_URL` in [../frontend/.env](../frontend/.env) and backend running on that port.
+- Mongo connection error: verify `MONGO_URI` in [/backend/.env](/backend/.env).
+- Frontend cannot reach backend: verify `VITE_API_URL` in [/frontend/.env](/frontend/.env) and backend running on that port.
 - Check server logs in backend terminal for detailed errors.
 
 ## Helpful files
-- [../backend/package.json](../backend/package.json)
-- [../frontend/package.json](../frontend/package.json)
-- [../frontend/vite.config.js](../frontend/vite.config.js)
+- [/backend/package.json](/backend/package.json)
+- [/frontend/package.json](/frontend/package.json)
+- [/frontend/vite.config.js](/frontend/vite.config.js)
 
 ---
